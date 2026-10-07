@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanayo Onochie | Health Tech Business Analyst</title>
+<meta name="description" content="Kanayo Onochie – Health Tech Business Analyst in Manchester specialising in requirements analysis, process improvement and data-driven decision making.">
+<meta name="author" content="Kanayo Onochie">
+<meta name="theme-color" content="#0f766e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kanayo Onochie | Health Tech Business Analyst">
+<meta property="og:description" content="Bridging business needs, technology & data to deliver impactful solutions.">
+<meta property="og:image" content="assets/images/profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kanayo Onochie | Health Tech Business Analyst">
+<meta name="twitter:description" content="Bridging business needs, technology & data to deliver impactful solutions.">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap nav-in">
+  <a href="#home" class="logo" data-bind="initials">KO</a>
+  <nav id="menu" aria-label="Main"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    <a class="btn small" data-bind-href="resume" target="_blank" rel="noopener">Resume</a></nav>
+  <div class="tools">
+    <a data-bind-href="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    <a data-bind-href="github" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+    <button id="theme" aria-label="Toggle dark or light theme">◐</button>
+    <button id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+  </div></div></header>
+<main id="main">
+<section id="home" class="hero wrap">
+  <div class="hero-text reveal">
+    <p class="eyebrow" data-bind="location"></p>
+    <h1 data-bind="name"></h1>
+    <p class="title" data-bind="title"></p>
+    <p class="lead" data-bind="tagline"></p>
+    <p class="muted" data-bind="bio"></p>
+    <div class="cta"><a class="btn" href="#projects">View Projects</a><a class="btn ghost" data-bind-href="resume" data-bind="resumeText" target="_blank" rel="noopener"></a></div>
+  </div>
+  <img class="photo reveal" src="assets/images/profile.jpg" alt="Portrait of Kanayo Onochie" width="320" height="320">
+</section>
+<section id="about" class="wrap sec reveal"><h2>About</h2>
+  <div class="two"><div>
+    <p>I turn complex operational problems into clear requirements, improved processes and practical technology-enabled solutions, with a focus on healthcare.</p>
+    <p>My approach: understand the problem and its stakeholders first, find root causes through discovery and process analysis, then define requirements before choosing a solution.</p>
+    <p id="about-long" class="muted"></p></div>
+  <ul class="facts"><li><strong id="yrs"></strong><span>years' experience</span></li><li><strong>Health tech</strong><span>focus area</span></li><li><strong>Agile</strong><span>delivery</span></li></ul></div>
+</section>
+<section id="experience" class="wrap sec reveal"><h2>Experience</h2><div id="timeline" class="timeline"></div></section>
+<section id="skills" class="wrap sec reveal"><h2>Core Competencies</h2><div id="skillgrid" class="grid3"></div></section>
+<section id="projects" class="wrap sec"><h2>Projects</h2><p class="muted">Business problems, how I analysed them, and what I recommended.</p><div id="projectgrid" class="grid2"></div></section>
+<section id="contact" class="wrap sec reveal"><h2>Contact</h2>
+  <div class="two"><div><p class="muted">Open to Business Analyst opportunities. Get in touch.</p>
+    <ul class="contact-list"><li><a id="c-mail"></a></li><li><a id="c-tel"></a></li><li id="c-loc"></li><li><a data-bind-href="linkedin" target="_blank" rel="noopener">LinkedIn</a> · <a data-bind-href="github" target="_blank" rel="noopener">GitHub</a></li></ul></div>
+  <form id="form" method="POST" novalidate>
+    <label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name">
+    <label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email">
+    <label for="f-subject">Subject</label><input id="f-subject" name="subject" required>
+    <label for="f-msg">Message</label><textarea id="f-msg" name="message" rows="5" required></textarea>
+    <button class="btn" type="submit">Send message</button>
+    <p id="status" role="status" aria-live="polite"></p></form></div>
+</section>
+</main>
+<footer class="wrap foot"><span>© <span id="yr"></span> <span data-bind="name"></span></span></footer>
+<dialog id="case" aria-labelledby="case-title"><div id="case-body"></div></dialog>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/script.js"></script>
+</body></html>
